@@ -182,7 +182,7 @@ class Augmenter:
 		data = list(data)
 		return data[0:len(data):2], data[1:len(data):2]
 
-def supported_shapes(shapes):
+def supported_shapes(shapes) -> bool :
 	for shape in shapes: 
 		if shape not in ["rectangle","circle"]: return False
 	return True
