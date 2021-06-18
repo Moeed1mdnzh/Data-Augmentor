@@ -23,6 +23,11 @@ As you may have already seen in the description, This project is able to create 
 |-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C8.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C12.jpg)|-----------|
 |-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C9.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 
+|-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C10.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C7.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C19.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----------|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C20.jpg)|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+
 
 
 
