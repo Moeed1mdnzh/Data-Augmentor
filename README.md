@@ -44,6 +44,16 @@ The object of the data augmentor takes 6 parameters in order to fine tune the au
 **5 - stepSize : The step size of the zooming box, 10 is set as default** <br />
 **6 - limit : The amount of shifting in your images, 0.3 is set as default**
 
+## Generate
+Once you created a variable X as your image data and y as labels, You should consider if your images are gray scale or not.If so you should change your `X` to
+```python
+X = X.reshape(-1, HEIGHT, WIDTH, 1)   
+``` 
+if not, you better leave it on 3 channels. <br />
+Next you should create the object of the augmentor.
+```python
+aug = Augmentor(3, scale=0.5, shapes=["rectangle","circle"], rate=0.7, stepSize=10, limit=0.3)   
+``` 
 
 
 
