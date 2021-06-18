@@ -30,7 +30,6 @@ class Augmenter:
 				res.append(cv2.resize(image[y:y+winH,x:x+winW],(W,H)))
 		return res
 
-
 	def mirror(self, image : np.ndarray) -> list:
 		return [cv2.flip(image,i) for i in [0,1]]
 
@@ -45,30 +44,21 @@ class Augmenter:
 		H,W = image.shape[:2]
 		for shape in shapes:
 			Wrate, Hrate = int(W*0.9), int(H*0.9)
-			if shape == "rectangle":
+			for _ in range(np.random.randint(5,15)):
+				clone = image.copy()
 				for _ in range(np.random.randint(5,15)):
-					clone = image.copy()
-					for _ in range(np.random.randint(5,15)):
-						x, y = np.random.randint(W-Wrate,Wrate), np.random.randint(H-Hrate,Hrate)
-						thickness = np.random.choice([-1,2,3,4])
-						color = (np.random.randint(1,256),
-						 np.random.randint(1,256),
-						 np.random.randint(1,256)) if channel == 3 else np.random.randint(1,256) 
-						cv2.rectangle(clone,(x,y),(x+int(W*0.1),y+int(H*0.1)),color,thickness)
-					res.append(clone)
-			if shape == "circle":
-				for _ in range(np.random.randint(5,15)):
-					clone = image.copy()
-					for _ in range(np.random.randint(5,15)):
-						x, y = np.random.randint(W-Wrate,Wrate), np.random.randint(H-Hrate,Hrate)
-						thickness = np.random.choice([-1,2,3,4])
-						color = (np.random.randint(1,256),
-						 np.random.randint(1,256),
-						 np.random.randint(1,256)) if channel == 3 else np.random.randint(1,256) 
+					x, y = np.random.randint(W-Wrate,Wrate), np.random.randint(H-Hrate,Hrate)
+					thickness = np.random.choice([-1,2,3,4])
+					color = (np.random.randint(1,256),
+					 np.random.randint(1,256),
+					 np.random.randint(1,256)) if channel == 3 else np.random.randint(1,256)
+					if shape == "circle":
 						cv2.circle(clone,(x,y),int(np.mean(np.array([W*0.05,H*0.05]))),color,thickness)
-					res.append(clone)
+					if shape == "rectangle":
+						cv2.rectangle(clone,(x,y),(x+int(W*0.1),y+int(H*0.1)),color,thickness)
+				res.append(clone)
 		return res
-
+	
 	def blur(self, image : np.ndarray) -> list:
 		return [cv2.GaussianBlur(image,(k,k),0) for k in range(3,12,2)]
 
