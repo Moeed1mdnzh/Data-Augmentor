@@ -18,7 +18,7 @@ As you may have already seen in the description, This project is able to create 
 ##### Couple-Of-Examples
 |Channel Change|Transform|Lighting|Random Shapes|Blur|Erode|Dilate|Noise|Colorize |Contour|  
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|![](https://github.com/Moeed1mdnzh/Data-Augmentor/tree/main/few_examples/[0, 1],2.jpg)|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|
+|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C2.jpg)|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|Content Cell|
 
 
 
