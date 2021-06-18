@@ -63,7 +63,7 @@ Pass the variable `data` to
 ```python
 X_new, y_new = aug.decode(data)
 ``` 
-to get them back
+to get them back and Boom! You have above hundred images right now.
 
 
 
