@@ -54,6 +54,16 @@ Next you should create the object of the augmentor.
 ```python
 aug = Augmentor(3, scale=0.5, shapes=["rectangle","circle"], rate=0.7, stepSize=10, limit=0.3)   
 ``` 
+For the generation part, add the code below
+```python
+data = aug.generate(X, y) 
+``` 
+After the generation you're gonna face a generator which is confusing a bit and you might want to get the result of `X` and `y` back, fortunately there is no need to worry.
+Pass the variable `data` to 
+```python
+X_new, y_new = aug.decode(data)
+``` 
+to get them back
 
 
 
