@@ -34,10 +34,10 @@ install the required packages
 ```python
 pip install -r requirements.txt 
 ``` 
-<br /> 
+
 In your main file create 2 variables with names `X, y`.
 ## Parameters
-The object of the data augmentor takes 6 parameters in order to fine tune the augmentors.<br />
+The object of the data augmentor takes 6 parameters in order to fine tune the augmentors. <br />
 **1 - channel : Channel of the images in your dataset, Must be wether 3 or 1 ** <br />
 **2 - scale : Defines the dimensions of the zooming box, The higher you set it, The less zoom you would get. 0.5 is set as default** <br />
 **3 - shapes : Shapes that are supposed to be drawn on your images, Must be wether rectangle or circle or both, Both is set as default ** <br />
