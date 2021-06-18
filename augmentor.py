@@ -3,7 +3,7 @@ import numpy as np
 from imutils import paths
 np.random.seed()
 
-class Augmenter:
+class Augmentor:
 	def __init__(self, channel, scale=0.5, shapes=["rectangle","circle"], rate=0.7, stepSize=10, limit=0.3) -> None: 
 		self.channel = channel 
 		self.scale = scale
