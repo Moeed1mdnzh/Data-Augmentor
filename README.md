@@ -5,19 +5,19 @@ in order to regularize the weights and prevent overfitting we are fortunately ca
 # Examples 
 As you may have already seen in the description, This project is able to create over 100 images for only a single image.
 #### ImageProcessingMethods
-***1 - Changing Channels*** __
-***2 - zooming in*** __
-***3 - Mirroring*** __
-***4 - Changing The Lighting*** __
-***5 - Random Circle And Rectangles*** __
-***6 - Blurring*** __
-***7 - Erosion*** __
-***8 - Dilation*** __
-***9 - Adding Noise*** __
-***10 - Colorizing*** __
-***11 - Rotation*** __
-***12 - Transformation*** __
-***13 - Adding Contours*** __
+***1 - Changing Channels*** <br />
+***2 - zooming in*** <br />
+***3 - Mirroring*** <br />
+***4 - Changing The Lighting*** <br />
+***5 - Random Circle And Rectangles*** <br />
+***6 - Blurring*** <br />
+***7 - Erosion*** <br />
+***8 - Dilation*** <br />
+***9 - Adding Noise*** <br />
+***10 - Colorizing*** <br />
+***11 - Rotation*** <br />
+***12 - Transformation*** <br />
+***13 - Adding Contours*** <br />
 
 
 
