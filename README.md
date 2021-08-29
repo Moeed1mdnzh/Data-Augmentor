@@ -1,10 +1,10 @@
-# What-it-is
+# What It Is
 Data augmentation is a common method used in many deep and machine learning models.
-## Why-it-is-important
+## Why It Is Important
 in order to regularize the weights and prevent overfitting we are fortunately capable of using this procedure.
 # Examples 
 As you may have already seen in the description, This project is able to create over 100 images for only a single image.
-#### Image-Processing-Methods
+#### Image Processing Techniques
 ***1 - Changing Channels*** <br />
 ***2 - Transforming*** <br />
 ***3 - Changing The Lighting*** <br />
@@ -15,7 +15,7 @@ As you may have already seen in the description, This project is able to create 
 ***8 - Adding Noise*** <br />
 ***9 - Colorizing*** <br />
 ***10 - Adding Contours*** <br />
-##### Couple-Of-Examples
+##### Couple Of Examples
 ![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/0%2C0.jpg)
 |Channel Changing|Transform|LightingChange|Randomized Shapes|AddBlurring|AddErosion|AddDilation|AddingNoise|Colorizing |AddingContour|  
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
