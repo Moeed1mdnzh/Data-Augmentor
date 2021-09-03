@@ -23,7 +23,7 @@ As you may have already seen in the description, This project is able to create 
 |![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C1.jpg)|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C8.jpg)|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C22.jpg)|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C15.jpg)| | | | |![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C13.jpg)|![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C3.jpg)|
 | |![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C19.jpg)| | | | | | |![](https://github.com/Moeed1mdnzh/Data-Augmentor/blob/main/few_examples/%5B0%2C%201%5D%2C12.jpg)| |
 
-*Empty cells are meant to say that more generated images from the particular column topic are available in the project*
+*Empty cells are meant to say that more generated images from the particular column topic are available in the project.*
 
 # Steps
 
