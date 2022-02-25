@@ -1,7 +1,7 @@
 # What It Is
-Data augmentation is a common method used in many deep and machine learning models.
+Data augmentation is a common method used on data for better deep learning models optimization.
 ## Why It Is Important
-in order to regularize the weights and prevent overfitting we are fortunately capable of using this procedure.
+In order to regularize the weights and prevent overfitting we are fortunately capable of using this procedure.
 # Examples 
 As you may have already seen in the description, This project is able to create over 100 images for only a single image.
 #### Image Processing Techniques
